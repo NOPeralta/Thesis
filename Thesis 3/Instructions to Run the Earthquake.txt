@@ -1,0 +1,18 @@
+Instructions to Run the Earthquake Analysis Notebook
+1. Download Required Files
+   - Download the cleaned earthquake dataset: earthquakes_1900-2025_cleaned.csv
+   - Download the Philippines administrative boundary JSON file: gadm41_PHL_1.json
+   - Download the Jupyter Notebook: Peralta_Molina-Thesis.ipynb
+
+2. Install Required Libraries (if not installed)
+   - Use your Python environment or Jupyter Notebook to install missing libraries:
+pandas, numpy, geopandas, shapely, matplotlib, seaborn, scipy, statsmodels, scikit-learn, xgboost
+
+3. Import Libraries
+Import all necessary Python libraries in your notebook. This includes pandas, numpy, geopandas, shapely, matplotlib, seaborn, scipy, statsmodels, and all sklearn and xgboost modules used in the analysis.
+
+4. Upload Files to Your Environment
+Upload the CSV dataset, JSON file, and Notebook to your Jupyter Notebook or preferred Python IDE. Ensure the file paths in the notebook match the uploaded locations.
+
+5. Run the Notebook
+Execute each cell in the notebook sequentially to reproduce the full analysis, including data exploration, feature engineering, machine learning model training, performance evaluation, and regional earthquake probability distributions.
